@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Main Labels & Info -->
+  <RimMercenaries_HireMercenariesTitle>Hire Mercenaries</RimMercenaries_HireMercenariesTitle>
+  <RimMercenaries_Negotiator>Negotiator: {0} (Social {1})</RimMercenaries_Negotiator>
+  <RimMercenaries_RefreshList>Refresh List</RimMercenaries_RefreshList>
+  <RimMercenaries_RefreshCooldown>Cannot refresh list again so soon.</RimMercenaries_RefreshCooldown>
+  <RimMercenaries_RefreshListTooltip>Refresh the list of available mercenaries.</RimMercenaries_RefreshListTooltip>
+  <RimMercenaries_NoMercenariesAvailable>No mercenaries currently available. Check back later or refresh the list.</RimMercenaries_NoMercenariesAvailable>
+  <RimMercenaries_Price>Price: {0}</RimMercenaries_Price>
+  <RimMercenaries_HireButton>Hire</RimMercenaries_HireButton>
+  <RimMercenaries_NoNegotiator>A capable negotiator (colonist who can talk) must be available.</RimMercenaries_NoNegotiator>
+  <RimMercenaries_NoPower>Mercenary console requires power.</RimMercenaries_NoPower>
+  <RimMercenaries_NotEnoughSilver>Not enough silver. Requires {0}.</RimMercenaries_NotEnoughSilver>
+  <RimMercenaries_MercenaryHired>Mercenary {0} hired by {1} for {2}</RimMercenaries_MercenaryHired>
+  <RimMercenaries_MercenaryHiredLabel>{0} Hired</RimMercenaries_MercenaryHiredLabel>
+  <RimMercenaries_MercenaryHiredDesc>
+    Following negotiations by {1}, {0} has agreed to join the colony for a payment of {2}. 
+    They will arrive via drop pod shortly.
+  </RimMercenaries_MercenaryHiredDesc>
+  <RimMercenaries_MercenariesReady>Available mercenary contacts ready</RimMercenaries_MercenariesReady>
+  <RimMercenaries_NextMercenaryUpdate>Next mercenary contact update in: {0}</RimMercenaries_NextMercenaryUpdate>
+
+  <!-- Comm Console Integration -->
+  <RimMercenaries_MercenaryNetwork>Mercenary Network</RimMercenaries_MercenaryNetwork>
+  <RimMercenaries_CallMercenaryNetwork>Call Mercenary Network</RimMercenaries_CallMercenaryNetwork>
+  <RimMercenaries_ContactMercenaryNetwork>Contact Mercenary Network</RimMercenaries_ContactMercenaryNetwork>
+  <RimMercenaries_MercenaryNetworkInfo>Contact Mercenary Network to hire mercenaries for silver.</RimMercenaries_MercenaryNetworkInfo>
+
+  <!-- Xenotype Filtering -->
+  <RimMercenaries_FilterXenotype>Filter by Xenotype:</RimMercenaries_FilterXenotype>
+  <RimMercenaries_XenotypeAny>Any</RimMercenaries_XenotypeAny>
+  <RimMercenaries_RegenerateXenotype>Regenerate List</RimMercenaries_RegenerateXenotype>
+  <RimMercenaries_NonCombatantWarning>⚠ WARNING: This xenotype is incapable of violence and cannot engage in combat!</RimMercenaries_NonCombatantWarning>
+
+  <!-- Build Types -->
+  <RimMercenaries_Build1Title>Raider</RimMercenaries_Build1Title>
+  <RimMercenaries_Build1Desc>Basic combatants with minimal training.</RimMercenaries_Build1Desc>
+  <RimMercenaries_Build2Title>Fighter</RimMercenaries_Build2Title>
+  <RimMercenaries_Build2Desc>Well-rounded mercenaries with improved combat skills.</RimMercenaries_Build2Desc>
+  <RimMercenaries_Build3Title>Veteran</RimMercenaries_Build3Title>
+  <RimMercenaries_Build3Desc>Highly skilled warriors, often with field medic knowledge.</RimMercenaries_Build3Desc>
+
+  <!-- Tooltips -->
+  <RimMercenaries_SkillsShort>Shooting: [0] [1], Melee: [2] [3]</RimMercenaries_SkillsShort>
+  <RimMercenaries_TooltipXenotype>Xenotype: {0}</RimMercenaries_TooltipXenotype>
+  <RimMercenaries_XenotypeUnknown>Unknown Xenotype</RimMercenaries_XenotypeUnknown>
+
+  <!-- Health Descriptors -->
+  <RimMercenaries_HealthHealthy>Healthy</RimMercenaries_HealthHealthy>
+  <RimMercenaries_HealthInjured>Injured</RimMercenaries_HealthInjured>
+  <RimMercenaries_HealthPermanentInjury>Permanent Injury</RimMercenaries_HealthPermanentInjury>
+  <RimMercenaries_HealthDowned>Downed</RimMercenaries_HealthDowned>
+  <RimMercenaries_HealthNotPerfect>Imperfect Health</RimMercenaries_HealthNotPerfect>
+
+  <!-- Shared Terms from Base Game -->
+  <None>None</None>
+  <Traits>Traits</Traits>
+  <Skills>Skills</Skills>
+  <Health>Health</Health>
+  <Apparel>Apparel</Apparel>
+  <Equipment>Equipment</Equipment>
+  <Incapable>Incapable</Incapable>
+  <AgeBiological>Age {0}</AgeBiological>
+  <Unknown>Unknown</Unknown>
+
+  <RimMercenaries_RefreshReady>Ready to refresh</RimMercenaries_RefreshReady>
+  <RimMercenaries_NextRefresh>Next refresh in: {0}</RimMercenaries_NextRefresh>
+  <RimMercenaries_HireBudget>Hire budget: {0} / {1}</RimMercenaries_HireBudget>
+  <RimMercenaries_Theme>Theme: </RimMercenaries_Theme>
+  <RimMercenaries_ThemeDefault>Default</RimMercenaries_ThemeDefault>
+  <RimMercenaries_ThemeDeepPurple>Deep Purple</RimMercenaries_ThemeDeepPurple>
+  <RimMercenaries_ThemeDeepBlue>Deep Blue</RimMercenaries_ThemeDeepBlue>
+  <RimMercenaries_ThemeDeepGreen>Deep Green</RimMercenaries_ThemeDeepGreen>
+  <RimMercenaries_ThemeDeepYellow>Deep Yellow</RimMercenaries_ThemeDeepYellow>
+  <RimMercenaries_TierLabel>Tier {0}: {1}/{2}</RimMercenaries_TierLabel>
+
+  <RimMercenaries_NoSafeDropLocationFound>No safe drop location found for mercenary landing. Hiring cancelled.</RimMercenaries_NoSafeDropLocationFound>
+  <RimMercenaries_HireBudgetReachedTier>Cannot hire more tier {0} mercenaries. Remaining: {1}</RimMercenaries_HireBudgetReachedTier>
+
+  <!-- Mercenary Status System -->
+  <RimMercenaries_MercenaryBecameSettler>{0} has been accepted as a true member of the settlement!</RimMercenaries_MercenaryBecameSettler>
+  <RimMercenaries_MercenaryStatusEligibleIn>Eligible for settlement acceptance in: {0}</RimMercenaries_MercenaryStatusEligibleIn>
+  <RimMercenaries_MercenaryStatusEligible>Eligible for settlement acceptance</RimMercenaries_MercenaryStatusEligible>
+
+  <!-- Mercenary Acceptance Event -->
+  <RimMercenaries_MercenaryAcceptedEventLabel>Mercenary Accepted</RimMercenaries_MercenaryAcceptedEventLabel>
+  <RimMercenaries_MercenaryAcceptedEventText>After spending time with the settlement, {0} has formed strong bonds with the colonists and decided to become a permanent member of the community.\n\nThe mercenary's burden has been lifted, and they now feel truly accepted among their new family. They are no longer just a hired gun, but a valued member of the settlement.</RimMercenaries_MercenaryAcceptedEventText>
+
+  <!-- Loading Indicator -->
+  <!--
+  <RimMercenaries_GeneratingMercenaries>Generating mercenaries...</RimMercenaries_GeneratingMercenaries>
+  <RimMercenaries_GeneratingForXenotype>Generating for xenotype: {0}</RimMercenaries_GeneratingForXenotype>
+  <RimMercenaries_LoadingTime>Time elapsed: {0}s</RimMercenaries_LoadingTime>
+  <RimMercenaries_ForceRefresh>Force Refresh</RimMercenaries_ForceRefresh>
+  -->
+
+</LanguageData>
