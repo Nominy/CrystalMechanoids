@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+      <WorkTypeDef>
+        <defName>Disassembling</defName>
+        <labelShort>disassemble</labelShort>
+        <pawnLabel>Disassembler</pawnLabel>
+        <gerundLabel>disassembling</gerundLabel>
+        <description>Destructing structures and mining</description>
+        <verb>Disassemble</verb>
+        <naturalPriority>900</naturalPriority>
+        <requireCapableColonist>true</requireCapableColonist>
+        <relevantSkills>
+          <li>Disassembling</li>
+        </relevantSkills>
+        <workTags>
+          <li>ManualSkilled</li>
+          <li>Commoner</li>
+          <li>Constructing</li>
+          <li>Mining</li>
+        </workTags>
+      </WorkTypeDef>
+    </value>
+  </Operation>
+
+</Patch>  

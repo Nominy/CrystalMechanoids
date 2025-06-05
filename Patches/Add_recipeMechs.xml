@@ -8,4 +8,11 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "MechGestator"]/recipes</xpath>
+		<value>
+			<li>CM_Mech_Marauder</li>
+		</value>
+	</Operation>
+
 </Patch>

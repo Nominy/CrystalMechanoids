@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+      <SkillDef>
+        <defName>Disassembling</defName>
+        <description>Destructing and deconstructing structures. Mining. Crafting</description>
+        <skillLabel>disassembling</skillLabel>
+        <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+        <listOrder>100</listOrder>
+        <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonMining</lessonInteraction>
+        <generalRules>
+          <rulesStrings>
+            <li>subject->mining</li>
+            <li>subject->digging</li>
+            <li>subject->quarrying</li>
+            <li>subject->strip-mining</li>
+            <li>subject->excavation</li>
+            <li>subject->ore</li>
+            <li>subject->tunneling</li>
+            <li>subject->drilling</li>
+            <li>subject->minerals</li>
+            <li>subject->gemology</li>
+            <li>subject->geology</li>
+            <li>subject->earthmoving</li>
+            <li>subject->crafting</li>
+            <li>subject->assembly</li>
+            <li>subject->manufacturing</li>
+            <li>subject->handcrafting</li>
+            <li>subject->fabrication</li>
+            <li>subject->production</li>
+            <li>subject->craftsmanship</li>
+            <li>subject->machining</li>
+            <li>subject->artisanry</li>
+          </rulesStrings>
+        </generalRules>
+      </SkillDef>
+    </value>
+  </Operation>
+</Patch>

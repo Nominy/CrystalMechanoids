@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+      <WorkGiverDef>
+        <defName>Disassembling_Deconstruct</defName>
+        <label>deconstruct structures</label>
+        <giverClass>WorkGiver_Deconstruct</giverClass>
+        <workType>Disassembling</workType>
+        <priorityInType>50</priorityInType>
+        <verb>deconstruct</verb>
+        <gerund>deconstructing</gerund>
+        <requiredCapacities>
+          <li>Manipulation</li>
+        </requiredCapacities>
+      </WorkGiverDef>
+      <WorkGiverDef>
+        <defName>Disassembling_Mine</defName>
+        <label>mine</label>
+        <giverClass>WorkGiver_Miner</giverClass>
+        <workType>Disassembling</workType>
+        <priorityInType>100</priorityInType>
+        <verb>mine</verb>
+        <gerund>mining</gerund>
+        <tagToGive>Fieldwork</tagToGive>
+        <requiredCapacities>
+          <li>Manipulation</li>
+        </requiredCapacities>
+      </WorkGiverDef>
+      <WorkGiverDef>
+        <defName>Disassembling_Drill</defName>
+        <label>drill at deep drill</label>
+        <giverClass>WorkGiver_DeepDrill</giverClass>
+        <workType>Disassembling</workType>
+        <priorityInType>50</priorityInType>
+        <verb>drill</verb>
+        <gerund>drilling</gerund>
+        <requiredCapacities>
+          <li>Manipulation</li>
+        </requiredCapacities>
+        <canBeDoneByMechs>false</canBeDoneByMechs>
+        <canBeDoneByMutants>false</canBeDoneByMutants>
+      </WorkGiverDef>
+    </value>
+  </Operation>
+</Patch>
