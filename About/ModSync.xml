@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
   <ID>aaaa</ID>
-  <ModName>RimMercenaries</ModName>
+  <ModName>RimMechanoids</ModName>
   <Version>1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>Nominy</Owner>
-    <Project>RimMercenaries</Project>
+    <Project>RimMechanoids</Project>
     <AboutDir>About</AboutDir>
     <DownloadFrom>ModSyncMainPage</DownloadFrom>
-    <Branch>master</Branch>
+    <Branch>main</Branch>
   </Host>
 </ModSyncNinjaData>
 
