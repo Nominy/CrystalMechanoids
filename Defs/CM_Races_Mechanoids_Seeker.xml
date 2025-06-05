@@ -33,7 +33,7 @@
       </tools>
     </ThingDef>
 
-    <PawnKindDef Name="LightMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
+    <PawnKindDef Name="LightMechanoidSeekerKind" ParentName="BaseMechanoidKind" Abstract="True">
       <weaponMoney>9999~9999</weaponMoney>
       <combatPower>10</combatPower>
       <weaponTags></weaponTags>
@@ -42,7 +42,7 @@
       <controlGroupPortraitZoom>1.8</controlGroupPortraitZoom>
     </PawnKindDef>
 
-    <PawnKindDef Name="NonCombatLightMechanoidKind" ParentName="LightMechanoidKind" Abstract="True">
+    <PawnKindDef Name="NonCombatLightMechanoidSeekerKind" ParentName="LightMechanoidKind" Abstract="True">
       <isFighter>false</isFighter>
     </PawnKindDef>
 
