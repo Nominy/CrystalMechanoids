@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef Name="LightMechanoidSeeker" ParentName="BaseMechanoid" Abstract="True">
-      <statBases>
-        <MarketValue>800</MarketValue>
-        <MoveSpeed>3.4</MoveSpeed>
-        <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
-        <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-        <MechEnergyLossPerHP>0.66</MechEnergyLossPerHP>
-      </statBases>
-      <race>
-        <body>Mech_Light</body>
-        <intelligence>ToolUser</intelligence>
-        <thinkTreeMain>Mechanoid</thinkTreeMain>
-        <baseBodySize>0.7</baseBodySize>
-        <mechWeightClass>Light</mechWeightClass>
-      </race>
-      <butcherProducts>
-        <Steel>10</Steel>
-      </butcherProducts>
-      <tools>
-        <li>
-          <label>head</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>6</power>
-          <cooldownTime>2.6</cooldownTime>
-          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-          <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        </li>
-      </tools>
-    </ThingDef>
-
-    <PawnKindDef Name="LightMechanoidSeekerKind" ParentName="BaseMechanoidKind" Abstract="True">
-      <weaponMoney>9999~9999</weaponMoney>
-      <combatPower>10</combatPower>
-      <weaponTags></weaponTags>
-      <techHediffsChance>1</techHediffsChance>
-      <techHediffsMoney>9999~9999</techHediffsMoney>
-      <controlGroupPortraitZoom>1.8</controlGroupPortraitZoom>
-    </PawnKindDef>
-
-    <PawnKindDef Name="NonCombatLightMechanoidSeekerKind" ParentName="LightMechanoidKind" Abstract="True">
-      <isFighter>false</isFighter>
-    </PawnKindDef>
-
     <!-- Seeker -->    
     <ThingDef ParentName="LightMechanoid">
       <defName>CM_Mech_Seeker</defName>
@@ -108,7 +63,7 @@
         </li>
       </lifeStages>
       <weaponTags>
-        <li>LightMechanoidSeekerSemiAutoRifle</li>
+        <li>MechanoidGunSemiAutoRifle</li>
       </weaponTags>
     </PawnKindDef>
 

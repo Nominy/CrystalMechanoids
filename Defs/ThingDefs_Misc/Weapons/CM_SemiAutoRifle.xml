@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="LightMechanoidSeekerGun" ParentName="BaseGun" Abstract="True">
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
-    <relicChance>0</relicChance>
-    <graphicData>
-      <drawSize>0.65</drawSize>
-    </graphicData>
-    <equippedDistanceOffset >-0.14</equippedDistanceOffset >
-    <tools>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2.6</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <!-- Semi Auto Rifle -->
-  <ThingDef Name="LightMechanoidSeekerSemiAutoRifle" ParentName="LightMechanoidGun" Abstract="True">
-    <weaponClasses>
-      <li>Ranged</li>
-    </weaponClasses>
-  </ThingDef>
-
   <ThingDef ParentName="LightMechanoidGunRanged">
-    <defName>CM_Gun_Semi_Auto_Rifle</defName>
-    <label>semi-auto-rifle</label>
+    <defName>Gun_SemiAutoRifle</defName>
+    <label>semi-autorifle</label>
     <description>A compact, short-range shotgun designed to be mounted on a light combat mechanoid.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -40,21 +12,21 @@
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
-      <Mass>2</Mass>
+      <Mass>2.0</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.70</AccuracyLong>
+      <AccuracyLong>0.7</AccuracyLong>
       <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>LightMechanoidSeekerSemiAutoRifle</li>
+      <li>MechanoidGunSemiAutoRifle</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_MiniShotgun</defaultProjectile>
+        <defaultProjectile>Bullet_SemiAutoRifle</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>26</range>
         <burstShotCount>1</burstShotCount>
@@ -66,7 +38,7 @@
     </verbs>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_MiniShotgun</defName>
+    <defName>Bullet_SemiAutoRifle</defName>
     <label>shotgun blast</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_MiniShotgun</texPath>
@@ -79,7 +51,6 @@
       <armorPenetrationBase>0.20</armorPenetrationBase>
       <speed>55</speed>
     </projectile>
-
   </ThingDef>
 
 </Defs>
