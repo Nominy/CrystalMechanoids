@@ -41,7 +41,7 @@
       <Mech_Militor>1</Mech_Militor>
     </products>
     <descriptionHyperlinks>
-      <ThingDef>Mech_Seeker</ThingDef>
+      <ThingDef>CM_Mech_Seeker</ThingDef>
     </descriptionHyperlinks>
   </RecipeDef>
 
