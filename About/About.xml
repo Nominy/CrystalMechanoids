@@ -19,7 +19,7 @@
     <li>brrainz.harmony</li>
   </loadAfter>
   <description>
-  This mod adds an ability to hire mercenaries from a Communication Console building.
+  This mod adds mechanoids to the game.
   </description>
   <modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>
 </ModMetaData>

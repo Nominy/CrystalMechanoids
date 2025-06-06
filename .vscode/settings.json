@@ -1,0 +1,9 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "omnisharp.enableDecompilationSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "csharp.format.enable": true,
+    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+    "dotnet.codeLens.enableReferencesCodeLens": true
+}

@@ -1,0 +1,10 @@
+{
+  "enableDecompilationSupport": true,
+  "enableImportCompletion": true,
+  "enableRoslynAnalyzers": true,
+  "organizeImportsOnFormat": true,
+  "enableEditorConfigSupport": true,
+  "formattingOptions": {
+    "enableEditorConfigSupport": true
+  }
+} 
