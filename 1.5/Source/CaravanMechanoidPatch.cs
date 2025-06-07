@@ -552,6 +552,7 @@ namespace CrystalMechanoids
                 }
                 if (!hasColonist && hasMech) {
                     __instance.RemovePawn(pawn);
+                    __instance.Notify_PawnRemoved(pawn);
                     return false;
                 }
             }
