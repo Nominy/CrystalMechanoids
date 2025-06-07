@@ -535,10 +535,10 @@ namespace CrystalMechanoids
             return codes.AsEnumerable();
         }
     }
-    // Patch Caravan.Notify_PawnKilled so caravans with mechanoids aren't destroyed when the last human dies
+    // Patch Caravan.Notify_MemberDied so caravans with mechanoids aren't destroyed when the last human dies
     [HarmonyPatchCategory("BaseGame")]
-    [HarmonyPatch(typeof(Caravan), nameof(Caravan.Notify_PawnKilled))]
-    public static class Caravan_Notify_PawnKilled_Patch {
+    [HarmonyPatch(typeof(Caravan), nameof(Caravan.Notify_MemberDied))]
+    public static class Caravan_Notify_MemberDied_Patch {
         public static bool Prefix(Caravan __instance, Pawn pawn) {
             if (__instance == null || pawn == null) return true;
 
