@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>CM_Mech_Mentorn</defName>
+    <label>gestate mentorn</label>
+    <description>Gestate a mentorn mechanoid.</description>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CM_Mech_Mentorn>1</CM_Mech_Mentorn>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>CM_Mech_Mentorn</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>
