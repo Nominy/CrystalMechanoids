@@ -84,6 +84,12 @@
   <ItemGroup>
     <Compile Include="CrystalMechanoids.cs" />
     <Compile Include="CaravanMechanoidPatch.cs" />
+    <Compile Include="ScanMechanoidsPatch.cs" />
+    <Compile Include="IndependentMechanoidsPatch.cs" />
+    <Compile Include="MechanoidColorPatch.cs" />
+    <Compile Include="ColorSyncSystem.cs" />
+    <Compile Include="Building_ColorSyncBlock.cs" />
+    <Compile Include="Building_CrystalWall.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

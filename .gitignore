@@ -39,6 +39,8 @@
 ExportedObj/
 obj/
 bin/
+RimSource/
+RimSourceDecomp/
 .consulo/
 *.unityproj
 *.suo

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GameComponentDef>
+    <defName>CrystalMechanoids_ColorSync</defName>
+    <gameComponentClass>CrystalMechanoids.GameComponentColorSync</gameComponentClass>
+  </GameComponentDef>
+</Defs> 

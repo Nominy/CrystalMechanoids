@@ -539,20 +539,20 @@ namespace CrystalMechanoids
     [HarmonyPatchCategory("BaseGame")]
     [HarmonyPatch(typeof(Caravan), nameof(Caravan.Notify_MemberDied))]
     public static class Caravan_Notify_MemberDied_Patch {
-        public static bool Prefix(Caravan __instance, Pawn pawn) {
-            if (__instance == null || pawn == null) return true;
+        public static bool Prefix(Caravan __instance, Pawn member) {
+            if (__instance == null || member == null) return true;
 
             if (PatchHelpers.HasMechanoids(__instance.pawns)) {
                 bool hasColonist = false;
                 bool hasMech = false;
                 foreach (Pawn p in __instance.pawns) {
-                    if (p == pawn) continue;
+                    if (p == member) continue;
                     if (p?.RaceProps?.IsMechanoid == true) hasMech = true;
                     if (p?.IsColonist == true) { hasColonist = true; break; }
                 }
                 if (!hasColonist && hasMech) {
-                    __instance.RemovePawn(pawn);
-                    __instance.Notify_PawnRemoved(pawn);
+                    __instance.RemovePawn(member);
+                    __instance.Notify_PawnRemoved(member);
                     return false;
                 }
             }

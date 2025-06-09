@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
     <CrystalMechanoids_ModName>CrystalMechanoids</CrystalMechanoids_ModName>
-    <CrystalMechanoids_Description>Allows creation of mechanoid-only caravans.</CrystalMechanoids_Description>
+    <CrystalMechanoids_Description>Allows creation of mechanoid-only caravans and adds color synchronization between mechanoids and buildings.</CrystalMechanoids_Description>
+    
+    <!-- Color Sync System -->
+    <CM_EnableColorSync>Enable Color Sync</CM_EnableColorSync>
+    <CM_EnableColorSyncDesc>Buildings will automatically match mechanoid colors when this is enabled.</CM_EnableColorSyncDesc>
+    <CM_ToggleColorSync>Toggle color sync</CM_ToggleColorSync>
+    <CM_ToggleColorSyncDesc>Toggle whether this building syncs its color with mechanoids</CM_ToggleColorSyncDesc>
+    <CM_ColorSyncEnabled>Color sync enabled: #{0}</CM_ColorSyncEnabled>
+    <CM_ColorSyncReady>Ready for color sync</CM_ColorSyncReady>
+    <CM_SyncBuildingColors>Sync building colors with mechanoids</CM_SyncBuildingColors>
+    <CM_SyncBuildingColorsDesc>When enabled, crystal buildings will automatically change colors to match your mechanoids.</CM_SyncBuildingColorsDesc>
+    <CrystalMechanoids_SyncBuildingColors>Sync building colors with mechanoids</CrystalMechanoids_SyncBuildingColors>
 </LanguageData>
