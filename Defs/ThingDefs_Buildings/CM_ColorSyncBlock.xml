@@ -4,20 +4,15 @@
   <ThingDef ParentName="BuildingBase">
     <defName>CM_ColorSyncBlock</defName>
     <label>crystal sync block</label>
-    <description>A decorative crystal block that can synchronize its color with your mechanoids. When mechanoid color synchronization is enabled, this block will automatically change its color to match your mechanoid's allegiance color.</description>
+    <description>A decorative crystal block that demonstrates partial color synchronization with your mechanoids. The base structure remains unchanged, while the crystal accents and highlights change color to match your mechanoid's allegiance when color synchronization is enabled. This showcases how buildings can have selective color application rather than full recoloring.</description>
     <thingClass>CrystalMechanoids.Building_ColorSyncBlock</thingClass>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/Building/Misc/TempControl/Cooler</texPath>
-      <graphicClass>Graphic_Single</graphicClass>  
+      <texPath>Things/Building/Furniture/CM_ColorSyncBlock_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Cutout</shaderType>
       <drawSize>(1,1)</drawSize>
-      <linkType>CornerFiller</linkType>
-      <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
-      </linkFlags>
-      <color>(200, 230, 255)</color>
+      <color>(180, 180, 180)</color>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -45,6 +40,7 @@
         <basePowerConsumption>10</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
+      <li Class="CrystalMechanoids.CompProperties_ColorSyncOverlay"/>
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>
         <glowColor>(120, 180, 255, 0)</glowColor>
